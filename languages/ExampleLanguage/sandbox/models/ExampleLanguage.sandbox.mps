@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6857b387-ab8c-4bb7-99fe-192a11e261ee(ExampleLanguage.sExampleLanguagendbox)">
+<model ref="r:6857b387-ab8c-4bb7-99fe-192a11e261ee(ExampleLanguage.sandbox)">
   <persistence version="9" />
   <languages>
     <use id="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b" name="ExampleLanguage" version="0" />
