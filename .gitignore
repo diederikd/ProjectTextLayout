@@ -1,0 +1,6 @@
+# Project exclude paths
+/languages/ExampleLanguage/classes_gen/
+/languages/ExampleLanguage/generator/classes_gen/
+/languages/ExampleLanguage/sandbox/classes_gen/
+/languages/TextLayout/classes_gen/
+/languages/TextLayout/generator/classes_gen/
