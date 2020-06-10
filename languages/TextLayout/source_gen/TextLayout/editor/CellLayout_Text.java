@@ -327,7 +327,10 @@ public class CellLayout_Text extends AbstractCellLayout {
     }
     private int getFirstChildLeftGap(EditorCell_Collection collection) {
       EditorCell firstLeaf = CellTraversalUtil.getFirstLeaf(collection);
-      return getLeftGap(firstLeaf);
+      if (firstLeaf != null) {
+        return getLeftGap(firstLeaf);
+      }
+      return 0;
     }
     private void updatePositions(EditorCell_Collection collection) {
       for (EditorCell child : collection) {
@@ -339,6 +342,7 @@ public class CellLayout_Text extends AbstractCellLayout {
       int y0 = Integer.MAX_VALUE;
       int x1 = Integer.MIN_VALUE;
       int y1 = Integer.MIN_VALUE;
+
       for (EditorCell child : collection) {
         x0 = Math.min(x0, child.getX());
         y0 = Math.min(y0, child.getY());
@@ -349,8 +353,10 @@ public class CellLayout_Text extends AbstractCellLayout {
       collection.setY(y0);
       collection.setWidth(x1 - x0);
       collection.setHeight(y1 - y0);
+
       // collection is implicitly laid out 
       ((EditorCell_Basic) collection).unrequestLayout();
+
       if (collection != myCell) {
         int ascent = getAscent(collection);
         int descent = collection.getHeight() - ascent;
@@ -358,21 +364,26 @@ public class CellLayout_Text extends AbstractCellLayout {
         collection.setDescent(descent);
       }
     }
+
     private void appendCell(EditorCell cell, boolean last) {
       if (myLineContent.isEmpty()) {
         myLineIndent = myCurrentIndent;
         indent();
       }
+
       // PunctuationUtil.addGaps(cell, myLineContent.isEmpty(), last); 
       addGaps(cell, myLineContent.isEmpty(), last);
 
       cell.moveTo(myX + myLineWidth, cell.getY());
       cell.relayout();
+
       myLineAscent = Math.max(myLineAscent, cell.getAscent());
       myLineDescent = Math.max(myLineDescent, cell.getDescent());
       myTopInset = Math.max(myTopInset, cell.getTopInset());
       myBottomInset = Math.max(myBottomInset, cell.getBottomInset());
+
       myLineWidth += cell.getWidth();
+
       myLineContent.add(cell);
       myLineWrapIndent.add(myCurrentIndentAfterWrap);
     }
@@ -381,15 +392,19 @@ public class CellLayout_Text extends AbstractCellLayout {
     }
     private void newLine(boolean overflow) {
       int baseLine = myCell.getY() + myHeight + myTopInset + myLineAscent;
+
       for (EditorCell cell : myLineContent) {
         cell.setBaseline(baseLine);
         cell.relayout();
       }
+
       myWidth = Math.max(myWidth, myLineWidth);
       myHeight += myTopInset + myBottomInset + myLineAscent + myLineDescent;
       myOverflow = overflow;
+
       resetLine();
     }
+
     private void resetLine() {
       myLineWidth = 0;
       myLineAscent = 0;
@@ -399,35 +414,46 @@ public class CellLayout_Text extends AbstractCellLayout {
       myLineContent.clear();
       myLineWrapIndent.clear();
     }
+
     private boolean haveToSplit() {
       return myX + myLineWidth > myMaxWidth && myLineContent.size() > 1;
     }
+
     private EditorCell findSplitPoint() {
       EditorCell lastCell = myLineContent.get(myLineContent.size() - 1);
       EditorCell result = lastCell;
+
       EditorCell current = result;
+
       while (true) {
         if (!(isIndentCollection(current.getParent()))) {
           break;
         }
+
         EditorCell indentLeaf = getFirstIndentLeaf(current.getParent());
         EditorCell unitStart = expandToUnitStart(indentLeaf);
+
         if (myLineContent.contains(unitStart) && isOnRightSide(unitStart) && cellRangeFitsOnOneLine(unitStart, lastCell)) {
+
           result = indentLeaf;
           current = current.getParent();
         } else {
           break;
         }
       }
+
       return expandToUnitStart(result);
     }
+
     private EditorCell expandToUnitStart(EditorCell cell) {
       EditorCell result = cell;
+
       while (true) {
         EditorCell prevLeaf = CellTraversalUtil.getPrevLeaf(result);
         // taking into account prevLeafs located inside collections with non-indent layouts: 
         // in this case topmost collection itself will be included into myLineContent as a 
         // child element 
+
         while (prevLeaf != null && !(myLineContent.contains(prevLeaf))) {
           prevLeaf = prevLeaf.getParent();
         }
@@ -443,8 +469,10 @@ public class CellLayout_Text extends AbstractCellLayout {
           break;
         }
       }
+
       return result;
     }
+
     private Boolean isNoWrap(EditorCell current) {
       while (current != null) {
         if (current.getStyle().get(StyleAttributes.INDENT_LAYOUT_NO_WRAP)) {
@@ -458,12 +486,15 @@ public class CellLayout_Text extends AbstractCellLayout {
       }
       return false;
     }
+
     private boolean cellRangeFitsOnOneLine(EditorCell firstCell, EditorCell lastCell) {
       return lastCell.getX() + lastCell.getWidth() - firstCell.getX() < myMaxWidth - myX - myCurrentIndentAfterWrap;
     }
+
     private boolean isOnRightSide(EditorCell cell) {
       return cell.getX() + cell.getWidth() - myX > myMaxWidth / 2;
     }
+
     private EditorCell getFirstIndentLeaf(EditorCell_Collection collection) {
       if (!(isIndentCollection(collection))) {
         return collection;
@@ -479,6 +510,7 @@ public class CellLayout_Text extends AbstractCellLayout {
       if (index == -1) {
         throw new IllegalStateException();
       }
+
       final ArrayList<jetbrains.mps.nodeEditor.cells.EditorCell> oldLine = new ArrayList(myLineContent.subList(0, index));
       final ArrayList<jetbrains.mps.nodeEditor.cells.EditorCell> newLine = new ArrayList(myLineContent.subList(index, myLineContent.size()));
 
@@ -517,6 +549,7 @@ public class CellLayout_Text extends AbstractCellLayout {
     if (cell instanceof EditorCell_Collection && (hasPunctuableLayout((jetbrains.mps.nodeEditor.cells.EditorCell_Collection) cell) || cell.getStyle().get(StyleAttributes.DRAW_BORDER))) {
       return 0;
     }
+
     return (PunctuationUtil.hasLeftGap(cell) ? getHorizontalGap(cell.getParent()) / 2 : 0);
   }
 
@@ -533,12 +566,15 @@ public class CellLayout_Text extends AbstractCellLayout {
     if (parent == null || !(hasPunctuableLayout(parent))) {
       return true;
     }
+
     if (parent.getCellLayout() instanceof CellLayout_Text && CellLayout_Text.isOnNewLine(parent, currentCell)) {
       return true;
     }
+
     if (parent.firstCell() == currentCell) {
       return leftCellHasPunctuationRight(parent);
     }
+
     EditorCell leftCell = CellTraversalUtil.getPrevLeaf(currentCell);
     if (parent.getCellLayout() instanceof CellLayout_Text && CellLayout_Text.isNewLineAfter(parent, leftCell)) {
       return true;
@@ -555,9 +591,11 @@ public class CellLayout_Text extends AbstractCellLayout {
     if (parent == null || !(hasPunctuableLayout(parent))) {
       return true;
     }
+
     if (parent.lastCell() == currentCell) {
       return rightCellHasPunctuationLeft(parent);
     }
+
     EditorCell rightCell = CellTraversalUtil.getNextLeaf(currentCell);
     if (rightCell instanceof EditorCell_Collection) {
       return rightCellHasPunctuationLeft(rightCell);
