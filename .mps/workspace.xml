@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48d1ff73-5796-4abb-a42c-96dfc5cb4711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TextLayout/models/TextLayout.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/models/TextLayout.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/generated" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="78536eb6-e3c7-456f-b087-84e548dc3dce/r:4504c5de-a74d-4e8d-bcaa-3d1da0fb35c3(TempModule78536eb6-e3c7-456f-b087-84e548dc3dce/ConsoleModel_6756327244667)">
+            <model ref="73ce3b4a-1614-4b98-8496-ddf9fdeb2573/r:15719c10-3ec2-4135-9062-4ac554ea20aa(TempModule73ce3b4a-1614-4b98-8496-ddf9fdeb2573/ConsoleModel_3602669862260)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -44,11 +46,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3AzBYRnW9pQ">
-                <node concept="3balQm" id="3AzBYRnW9pR" role="aymYE" />
-                <node concept="2Clz$F" id="3AzBYRnW9pS" role="aymYO" />
-                <node concept="2_V_lH" id="3AzBYRnW9pT" role="1PhJh3">
-                  <ref role="2_V_lI" node="3AzBYRnW9pS" resolve="CommandHolder" />
+              <node concept="aymSD" id="5UPxT5UQtfv">
+                <node concept="3balQm" id="5UPxT5UQtfw" role="aymYE" />
+                <node concept="2Clz$F" id="5UPxT5UQtfx" role="aymYO" />
+                <node concept="2_V_lH" id="5UPxT5UQtfy" role="1PhJh3">
+                  <ref role="2_V_lI" node="5UPxT5UQtfx" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -114,6 +116,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
+      <option name="ConceptExplorerPlugin.plugin.ConceptExplorerPlugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="MPSBrowserPlugin.plugin.MPSBrowserPlugin_ProjectPlugin">
         <value>
           <PluginState />
@@ -355,8 +362,95 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5805653085072389205" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4375390360230970978" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
       </pane>
       <pane id="FileSystem">
         <subPane>
@@ -368,112 +462,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8397be0d-51f2-48df-8016-fb6b1aad35b6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6857b387-ab8c-4bb7-99fe-192a11e261ee(ExampleLanguage.sandbox) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/sandbox/models/ExampleLanguage.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8397be0d-51f2-48df-8016-fb6b1aad35b6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:90108b11-3ee6-482a-95fb-ad8e11abc2a7(ExampleLanguage.structure) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/models/ExampleLanguage.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8397be0d-51f2-48df-8016-fb6b1aad35b6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:90108b11-3ee6-482a-95fb-ad8e11abc2a7(ExampleLanguage.structure) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/models/ExampleLanguage.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8343157522590781250" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="CustomProjectView_ViewPlugin.plugin.TaxonomyView">
-        <subPane />
-      </pane>
-      <pane id="CustomProjectView_ViewPlugin.plugin.StructuredView">
-        <subPane />
-      </pane>
+      <pane id="Scope" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -494,6 +483,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
@@ -528,8 +518,9 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -546,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591481834600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed some errors">
+      <created>1591765299030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591765299030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -647,40 +645,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="renamed solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed solution" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="428" y="210" key="#MPSPropertiesConfigurable" timestamp="1591469512293">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="428" y="210" key="#MPSPropertiesConfigurable/0.23.1680.959@0.23.1680.959" timestamp="1591469512293" />
-    <state x="528" y="261" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1591466969442">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="528" y="261" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1680.959@0.23.1680.959" timestamp="1591466969442" />
-    <state x="648" y="198" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1591467638174">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="648" y="198" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1680.959@0.23.1680.959" timestamp="1591467638174" />
-    <state x="578" y="266" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1591456452721">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="578" y="266" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1680.959@0.23.1680.959" timestamp="1591456452721" />
-    <state x="311" y="76" key="CommitChangelistDialog2" timestamp="1591481834128">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="311" y="76" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1591481834128" />
-    <state x="428" y="246" key="IDE.errors.dialog" timestamp="1591479197586">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="428" y="246" key="IDE.errors.dialog/0.23.1680.959@0.23.1680.959" timestamp="1591479197586" />
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1591481838111">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2/0.23.1680.959@0.23.1680.959" timestamp="1591481838111" />
-    <state x="664" y="334" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1591464719436">
-      <screen x="0" y="23" width="1680" height="959" />
-    </state>
-    <state x="664" y="334" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1680.959@0.23.1680.959" timestamp="1591464719436" />
+    <MESSAGE value="fixed some errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some errors" />
   </component>
 </project>
