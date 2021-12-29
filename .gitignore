@@ -1,6 +1,15 @@
 # Project exclude paths
-/languages/ExampleLanguage/classes_gen/
-/languages/ExampleLanguage/generator/classes_gen/
-/languages/ExampleLanguage/sandbox/classes_gen/
-/languages/TextLayout/classes_gen/
-/languages/TextLayout/generator/classes_gen/
+**/classes_gen
+**/source_gen
+**/source_gen.caches
+*.html
+*.java
+lib/*
+build/*
+.gradle/*
+/.mps/workspace.xml
+
+\.gitattributes
+
+\.mps/vcs\.xml
+/version-alef.txt

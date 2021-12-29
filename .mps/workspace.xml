@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48d1ff73-5796-4abb-a42c-96dfc5cb4711" name="Default Changelist" comment="Migrated to 2020.3">
-      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+    <list default="true" id="48d1ff73-5796-4abb-a42c-96dfc5cb4711" name="Default Changelist" comment="Migrated to 2021.1">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/ExampleLanguage.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/ExampleLanguage.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/generator/source_gen.caches/ExExampleLanguagempleLExampleLanguagenguExampleLanguagege/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/generator/source_gen.caches/ExExampleLanguagempleLExampleLanguagenguExampleLanguagege/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/models/ExampleLanguage.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/models/ExampleLanguage.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/runtime/ExampleLanguage.runtime.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/runtime/models/ExampleLanguage.runtime.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen.caches/ExampleLanguage/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen.caches/ExampleLanguage/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen.caches/ExampleLanguage/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen.caches/ExampleLanguage/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen/ExampleLanguage/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen/ExampleLanguage/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen/ExampleLanguage/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ExampleLanguage/source_gen/ExampleLanguage/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/TextLayout.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/TextLayout.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/generator/source_gen.caches/TextLayout/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/generator/source_gen.caches/TextLayout/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/models/TextLayout.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/models/TextLayout.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/models/TextLayout.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/models/TextLayout.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen.caches/TextLayout/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/editor/CellLayout_Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/editor/CellLayout_Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TextLayout/source_gen/TextLayout/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +12,8 @@
   <component name="ConceptEditorHintSettings">
     <option name="enabledHints">
       <set>
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
         <option value="gegevensspraak.editor.DebugHints.Beside" />
         <option value="gegevensspraak.editor.DebugHints.InPlace" />
         <option value="gegevensspraak.editor.DebugHints.TestRegel" />
@@ -46,7 +26,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="bacbee88-df1b-46eb-af96-72248207f0fc/r:8f400b92-0de5-4c0e-87f2-c29436f95038(TempModulebacbee88-df1b-46eb-af96-72248207f0fc/ConsoleModel_6445093849432)">
+            <model ref="23679877-4845-4bec-8b69-39c86d38b250/r:82f8b7ee-1006-456c-bf7a-df8d33c4f1f9(TempModule23679877-4845-4bec-8b69-39c86d38b250/ConsoleModel_6932658029681)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -66,11 +46,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5vuFJ4RanZu">
-                <node concept="3balQm" id="5vuFJ4RanZv" role="aymYE" />
-                <node concept="2Clz$F" id="5vuFJ4RanZw" role="aymYO" />
-                <node concept="2_V_lH" id="5vuFJ4RanZx" role="1PhJh3">
-                  <ref role="2_V_lI" node="5vuFJ4RanZw" resolve="CommandHolder" />
+              <node concept="aymSD" id="7WdizJKPqIe">
+                <node concept="3balQm" id="7WdizJKPqIf" role="aymYE" />
+                <node concept="2Clz$F" id="7WdizJKPqIg" role="aymYO" />
+                <node concept="2_V_lH" id="7WdizJKPqIh" role="1PhJh3">
+                  <ref role="2_V_lI" node="7WdizJKPqIg" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -429,10 +409,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -451,11 +427,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExExampleLanguagempleLExampleLanguagenguExampleLanguagege#01" />
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,8 +462,60 @@
               <option name="myItemId" value="8397be0d-51f2-48df-8016-fb6b1aad35b6" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleLanguage" />
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3aa8bc9a-ed23-40f5-9cff-35492687e87b(ExampleLanguage.constraints) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/models/ExampleLanguage.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5805653085072389205" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4375390360230970978" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,6 +530,22 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:90108b11-3ee6-482a-95fb-ad8e11abc2a7(ExampleLanguage.structure) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/models/ExampleLanguage.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,114 +576,32 @@
               <option name="myItemId" value="ExExampleLanguagempleLExampleLanguagenguExampleLanguagege#01" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExExampleLanguagempleLExampleLanguagenguExampleLanguagege#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:ff203754-07b5-4cc0-abdd-fe1f009dfb77(main@generator) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/generator/templates/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3aa8bc9a-ed23-40f5-9cff-35492687e87b(ExampleLanguage.constraints) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/ExampleLanguage/models/ExampleLanguage.constraints.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4375390360230970978" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b450d771-cec7-46d2-a9cd-e0e2d81c270a(TextLayout)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f3145455-f1b3-4a43-a146-9eae6a129281(TextLayout.editor) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ProjectTextLayout/languages/TextLayout/models/TextLayout.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5805653085072389205" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8397be0d-51f2-48df-8016-fb6b1aad35b6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectTextLayout" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -657,17 +619,31 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ProjectTextLayout" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4c0e5105-e3e2-4e0c-a4f9-4fbda094b11b(ExampleLanguage)" />
+              <option name="myItemId" value="8397be0d-51f2-48df-8016-fb6b1aad35b6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectTextLayout" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="CustomProjectView_ViewPlugin.plugin.VocabularyView">
+        <subPane />
       </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
@@ -758,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640706932530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Migrated to 2021.1">
+      <created>1640768906568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640768906568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -864,6 +847,7 @@
     <MESSAGE value="renamed solution" />
     <MESSAGE value="fixed some errors" />
     <MESSAGE value="Migrated to 2020.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migrated to 2020.3" />
+    <MESSAGE value="Migrated to 2021.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrated to 2021.1" />
   </component>
 </project>
