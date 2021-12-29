@@ -94,7 +94,7 @@ public class CellLayout_Text extends AbstractCellLayout {
     }
     switch (bL) {
       case FIRST:
-        // default behavior 
+        // default behavior
         return result;
       case CENTER:
         return Math.max(result, editorCells.getHeight() / 2);
@@ -113,10 +113,10 @@ public class CellLayout_Text extends AbstractCellLayout {
     if (editorCells.getParent() != null && editorCells.getParent().getCellLayout() instanceof CellLayout_Text || deltaX == 0) {
       return;
     }
-    // Triggering re-layout process for top-level EditorCell_Collection with indent layout on move. 
-    // Necessary to recalculate cell wrapping on moving EditorCell_Collection with indent layout enclosed 
-    // inside another (non-indent layout) cell. Such move can be performed as a part of layout process for 
-    // top-level cell with indent layout. 
+    // Triggering re-layout process for top-level EditorCell_Collection with indent layout on move.
+    // Necessary to recalculate cell wrapping on moving EditorCell_Collection with indent layout enclosed
+    // inside another (non-indent layout) cell. Such move can be performed as a part of layout process for
+    // top-level cell with indent layout.
     editorCells.requestRelayout();
   }
 
@@ -136,7 +136,6 @@ public class CellLayout_Text extends AbstractCellLayout {
   }
 
   private int getIndentSize() {
-    EditorSettings settings = EditorSettings.getInstance();
     return 0;
   }
 
@@ -354,7 +353,7 @@ public class CellLayout_Text extends AbstractCellLayout {
       collection.setWidth(x1 - x0);
       collection.setHeight(y1 - y0);
 
-      // collection is implicitly laid out 
+      // collection is implicitly laid out
       ((EditorCell_Basic) collection).unrequestLayout();
 
       if (collection != myCell) {
@@ -371,7 +370,7 @@ public class CellLayout_Text extends AbstractCellLayout {
         indent();
       }
 
-      // PunctuationUtil.addGaps(cell, myLineContent.isEmpty(), last); 
+      // PunctuationUtil.addGaps(cell, myLineContent.isEmpty(), last);
       addGaps(cell, myLineContent.isEmpty(), last);
 
       cell.moveTo(myX + myLineWidth, cell.getY());
@@ -450,9 +449,9 @@ public class CellLayout_Text extends AbstractCellLayout {
 
       while (true) {
         EditorCell prevLeaf = CellTraversalUtil.getPrevLeaf(result);
-        // taking into account prevLeafs located inside collections with non-indent layouts: 
-        // in this case topmost collection itself will be included into myLineContent as a 
-        // child element 
+        // taking into account prevLeafs located inside collections with non-indent layouts:
+        // in this case topmost collection itself will be included into myLineContent as a
+        // child element
 
         while (prevLeaf != null && !(myLineContent.contains(prevLeaf))) {
           prevLeaf = prevLeaf.getParent();
